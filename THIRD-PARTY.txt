@@ -1,0 +1,24 @@
+libgourou — Grégory Soutadé and contributors
+  https://forge.soutade.fr/soutade/libgourou
+  Library: LGPL-3.0-or-later; utilities: BSD-3-Clause.
+  Base64.h: its embedded permissive license.
+  Full source, notices and LGPL license: vendor/libgourou.
+
+uPDFParser — Grégory Soutadé and contributors
+  https://forge.soutade.fr/soutade/uPDFParser
+  LGPL-3.0-or-later.
+  Full source and license: vendor/libgourou/lib/updfparser.
+
+pugixml 1.14 — Arseny Kapoulkine and contributors
+  https://github.com/zeux/pugixml/tree/v1.14
+  MIT. Source and license: vendor/libgourou/lib/pugixml.
+
+The GPL-3.0 text incorporated by LGPL-3.0 is in vendor/GPL-3.txt.
+Pinned upstream revisions and local modifications: vendor/UPSTREAM.txt.
+The DEB contains complete modified upstream source and the local build script.
+It builds the utilities under the user's own account on first launch; they
+may be modified and rebuilt. No Adobe credentials or decryption keys are
+included in the distributed source or package.
+
+The desktop icon is original generated artwork for this application.
+The sidebar layout follows the user's Wallaby Wallet design reference.

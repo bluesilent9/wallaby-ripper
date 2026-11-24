@@ -1,0 +1,13 @@
+libgourou: https://forge.soutade.fr/soutade/libgourou
+commit: 82d0ef5484beb74a807b4621bc7f0503c3557108
+uPDFParser: https://forge.soutade.fr/soutade/uPDFParser
+commit: 6060d123441a06df699eb275ae5ffdd50409b8f3
+
+Local modifications: OpenSSL 1.0/1.1 compatibility; password input via stdin; portable compiler flags; standard static archive; curl protocol restrictions.
+
+pugixml v1.14 (MIT): https://github.com/zeux/pugixml/tree/v1.14
+Bundled to support Ubuntu releases whose system pugixml is too old.
+
+Additional compatibility changes: initialize pre-1.1 OpenSSL algorithms; add
+missing pre-3.0 provider placeholder; OpenSSL 1.0 BIO const signature; libzip
+0.10 type/API aliases; explicit unsigned-byte overload for GCC 4.8/5.

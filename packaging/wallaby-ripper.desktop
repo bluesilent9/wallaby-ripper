@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wallaby Ripper
+Comment=Convert Adobe ACSM tickets to readable PDFs
+Exec=wallaby-ripper
+Icon=wallaby-ripper
+Terminal=false
+Categories=Office;Utility;
+Keywords=PDF;ACSM;ebook;
+StartupNotify=false
